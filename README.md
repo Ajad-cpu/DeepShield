@@ -1,60 +1,61 @@
-# DeepFake Detection - Simplified!
-DeepFake Detection Web-App 🖥 using Deep Learning(ResNext and LSTM), Flask and ReactJs where you can predict whether a video is FAKE Or REAL along with the confidence ratio. 
+# DeepShield - DeepFake Detection
+
+DeepFake Detection Web-App 🖥 using Deep Learning (ResNext and LSTM), Flask, and ReactJs where you can predict whether a video is FAKE or REAL along with the confidence ratio.
 
 ## Explanation of the Project
-- We've created a DeepFake Detection system which intends to detect DeepFake videos using Deep Learning techniques like ResNext and LSTM. Also integrated the  trained model with the Frontend UI which uses ReactJs and Backend uses Flask.
 
-- The Dataset we've used to train our model is [here](https://github.com/yuezunli/celeb-deepfakeforensics).
+* Designed a DeepFake Detection system to identify DeepFake videos using Deep Learning techniques like ResNext and LSTM. Integrated the trained model with a ReactJS Frontend and Flask Backend.
+* The dataset used to train the model is available [here](https://github.com/yuezunli/celeb-deepfakeforensics).
+* Trained model files can be found [here](https://drive.google.com/drive/folders/1-zErGZ9T89TplQs3ws4QVRFlqE-ljW6l?usp=sharing).
+* Model training reference taken from [this resource](https://github.com/abhijitjadhav1998/Deepfake_detection_using_deep_learning/tree/master/Model%20Creation).
 
-- To find our trained model follow this [link](https://drive.google.com/drive/folders/1-zErGZ9T89TplQs3ws4QVRFlqE-ljW6l?usp=sharing).
+### Project Structure
 
-- To train our model we've took help from [here](https://github.com/abhijitjadhav1998/Deepfake_detection_using_deep_learning/tree/master/Model%20Creation).
-  Thanks to them!
-
-- To understand the project in a better way it is structured in below format:
 ```
-DeepFake-Detection
+DeepShield
     |
     |--- DeepFake_Detection
     |--- Implementation Video
     |--- Project-Setup.txt
-    |--- Requiremnts.txt
+    |--- Requirements.txt
 ```
-1. DeepFake_Detection - This is the root folder.
 
-2. Implementation Video - It shows the whole working of the project. 
-
-3. Project-Setup.txt - In this file we've written all the necessary steps to run this project.
-
-4. Requirements.txt - Python libraries needed for this project. 
+1. **DeepFake\_Detection** - Root folder of the project.
+2. **Implementation Video** - Shows complete working of the project.
+3. **Project-Setup.txt** - Contains all steps to set up and run the project.
+4. **Requirements.txt** - Python libraries needed for this project.
 
 ## Project Set-up Guidelines
-To set up the project. All the steps and guidelines regarding that are listed [here](https://github.com/iamdhrutipatel/DeepFake-Detection/blob/main/Project-Setup.txt).
 
-## Note
-1. In the root folder(DeepFake_Detection), create a new folder called "Uploaded_Files".
+Setup instructions are listed [here](https://github.com/Ajad-cpu/DeepShield/blob/main/Project-Setup.txt).
 
-2. In the root folder(DeepFake_Detection), create a new folder called "model" and add the [model file](https://drive.google.com/drive/folders/1-zErGZ9T89TplQs3ws4QVRFlqE-ljW6l?usp=sharing) in it.
+## Notes
 
-<b>Add these folders to the root folder(DeepFake_Detection). Since, the path has already been given to the "server.py" file and also to avoid any path related errors.</b>
+1. In the root folder (`DeepFake_Detection`), create a folder called `Uploaded_Files`.
+2. In the root folder (`DeepFake_Detection`), create a folder called `model` and add the [model file](https://drive.google.com/drive/folders/1-zErGZ9T89TplQs3ws4QVRFlqE-ljW6l?usp=sharing) in it.
 
-## Our Results
+*(Paths are already set in `server.py`, so this avoids errors.)*
 
-1) Accuracy of the Model:
-<img width="250" height="50" alt="Model Accuracy" src="https://user-images.githubusercontent.com/58872872/133935912-1def7615-6538-4c88-9134-8f94a9367965.png">
+## Results
 
-2) Training and Validation Accuracy Graph:
-<img width="378" alt="Accuracy Graph" src="https://user-images.githubusercontent.com/58872872/133936040-4bfa44a7-45c5-499b-8a10-f253cbcab56c.png">
+1. **Accuracy of the Model**
 
-3) Training and Validation Loss Graph:
-<img width="381" alt="Loss Graph" src="https://user-images.githubusercontent.com/58872872/133935983-b4d9275f-e841-4b69-86cd-79c770ea2aa1.png">
+   <img width="250" height="50" alt="Model Accuracy" src="https://user-images.githubusercontent.com/58872872/133935912-1def7615-6538-4c88-9134-8f94a9367965.png">
 
-4) Confusion Matrix:
-<img width="402" alt="Confusion Matrix" src="https://user-images.githubusercontent.com/58872872/133936080-d2b39804-4a99-47b8-8be4-87ba77161961.png">
+2. **Training and Validation Accuracy Graph**
 
-- To see the working of the project, follow this [link](https://github.com/iamdhrutipatel/DeepFake-Detection/blob/main/Implementation%20Video.mp4).
+   <img width="378" alt="Accuracy Graph" src="https://user-images.githubusercontent.com/58872872/133936040-4bfa44a7-45c5-499b-8a10-f253cbcab56c.png">
 
-## Developers
-1. [Juhie Motiani](https://github.com/JuhieMotiani)
-2. [Dhruti Patel](https://github.com/iamdhrutipatel)
-3. [Anjali Patel](https://github.com/anjali-patel21)
+3. **Training and Validation Loss Graph**
+
+   <img width="381" alt="Loss Graph" src="https://user-images.githubusercontent.com/58872872/133935983-b4d9275f-e841-4b69-86cd-79c770ea2aa1.png">
+
+4. **Confusion Matrix**
+
+   <img width="402" alt="Confusion Matrix" src="https://user-images.githubusercontent.com/58872872/133936080-d2b39804-4a99-47b8-8be4-87ba77161961.png">
+
+* To see the working of the project, click [here](https://github.com/Ajad-cpu/DeepShield/blob/main/Implementation%20Video.mp4).
+
+## Developer
+
+* [Ajad](https://github.com/Ajad-cpu)
